@@ -32,7 +32,8 @@ To quickly get started, follow these steps:
 
 .Install all dependencies by running npm i.
 
-.Compile the circuit using the command: npx hardhat circom. This will generate the out directory with circuit intermediaries and the CustomCircuitSVerifier.sol contract.
+.Compile the circuit using the command: npx hardhat circom. 
+This will generate the out directory with circuit intermediaries and the CustomCircuitSVerifier.sol contract.
 
 ### Prove and Deploy:
 
