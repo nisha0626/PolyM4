@@ -1,5 +1,6 @@
-# Logical Gate Circom Circuit with ZK-SNARK Proof
+# ZK SNARK Designer
 This aim of the project is  to implement a logical gate circuit using the circom programming language and provide a Zero-Knowledge Succinct Non-Interactive Argument of Knowledge (ZK-SNARK) proof to demonstrate the knowledge of specific inputs that yield a particular output.
+For this project, you will create a circuit using the circom programming language that implements  logical gate:
 
 ## Circuit Logic
 The logical gate circuit has the following truth table:
@@ -58,9 +59,3 @@ Check for the successful transaction and verify fulfillment in the Mumbai Polygo
 ### Author
 NISHA KUMARI
 
-npx hardhat run scripts/deploy.ts --network mumbai
-
-Check for the successful transaction and verify fulfillment in the Mumbai PolygonScan by searching with the provided contract address.
-
-Author
-Sangam Kumar - Chandigarh University
