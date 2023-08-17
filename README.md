@@ -36,10 +36,14 @@ To quickly get started, follow these steps:
 ### Prove and Deploy:
 
 Run npx hardhat run scripts/deploy.ts. This script performs the following tasks:-
-Deploys the CircuitSangamVerifier.sol contract.
+Deploys the CustomCircuitVerifier.sol contract.
+
 Generates a proof from circuit intermediaries using generateProof().
+
 Generates calldata with generateCallData().
+
 Calls verifyProof() on the verifier contract with the calldata.
+
 Configuration
 Each new circuit lives in its own directory. At the top level of each circuit directory resides the circom circuit and input to the circuit. The out directory will be auto-generated and store the compiled outputs, keys, and proofs. The Powers of Tau file comes from the Polygon Hermez ceremony, which saves time by not needing a new ceremony.
 
