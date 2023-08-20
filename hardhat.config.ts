@@ -6,12 +6,12 @@ import "hardhat-circom";
 import circuits = require('./circuits.config.json')
 import 'dotenv/config'
 
+
 // set env var to the root of the project
 process.env.BASE_PATH = __dirname;
 
 // tasks
 import "./tasks/newcircuit.ts"
-
 
 const config: HardhatUserConfig = {
   solidity: {
